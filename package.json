@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BabarKhanDev/Draw-User-Faces/issues"
   },
-  "homepage": "https://github.com/BabarKhanDev/Draw-User-Faces#readme"
+  "homepage": "https://github.com/BabarKhanDev/Draw-User-Faces#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
