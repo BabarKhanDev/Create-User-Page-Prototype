@@ -5,9 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/js/canvasHandler.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="/js/handler.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    
+    <h1 id="title"></h1>    
+    <h2 id="waiting"></h2>
+    <input id="username" maxlength="20"></input>
+    <div id="carousel" hidden></div>
+    <div id="dots" hidden></div>
+    <button id="submitPP" onclick="submitUserData()" hidden>Submit</button>
+    <button id="submitUsername" onclick="submitUsername()">Submit</button>
+    <button id="submitNewUser" onclick="clearSavedUser()" hidden>Not You?</button>
+
 </body>
 </html>
