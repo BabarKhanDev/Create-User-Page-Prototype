@@ -31,8 +31,6 @@ function generateUserDisplay(){
     document.getElementById('waiting').innerHTML = 'Thank You For Signing Up';
 
     document.getElementById('submitNewUser').hidden = false;
-
-    document.body.appendChild(newUser)
 }
 
 function clearSavedUser(){
